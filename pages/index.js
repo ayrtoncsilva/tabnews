@@ -16,7 +16,6 @@ function Surpresa() {
 
   return (
     <div className="container">
-      <div className="hearts"></div>
       <h1 className="glow-text">Oi, meu amor.</h1>
       <p className="fade-in-text text-box">
         Tem algo que preciso te falar e só de pensar nisso, já me dá aquele frio na barriga.
