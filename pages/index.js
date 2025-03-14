@@ -16,13 +16,13 @@ function Surpresa() {
 
             <p className="fade-in-text text-box">
                 Tem algo que preciso te falar e só de pensar nisso, já me dá aquele frio na barriga.
-                Mas antes de falar, queria destacar que você não é só alguém especial, 
+                Mas antes de falar, queria destacar que você não é só alguém especial,
                 <strong> mas sim a melhor parte dos meus dias.</strong>
                 Teu sorriso ilumina tudo em minha volta e seu abraço é o único lugar onde tudo faz sentido.
             </p>
 
             <p className="fade-in-text text-box">
-                Mas o que eu quero te falar está subentendido nesta música. 
+                Mas o que eu quero te falar está sub entendido nesta música.
                 Estava ouvindo e lembrei de você. Será por quê? rsrs
             </p>
 
@@ -31,20 +31,22 @@ function Surpresa() {
             </p>
 
             {/* Vídeo */}
-            <div className="fade-in-video">
-                <iframe 
-                    width="640" 
-                    height="360" 
-                    src="https://www.youtube.com/embed/rTsbSY04s1Y?autoplay=1&loop=1&playlist=rTsbSY04s1Y" 
-                    title="Surpresa Musical"
-                    allow="autoplay; encrypted-media" 
-                    allowFullScreen
-                    style={{
-                        borderRadius: "15px",
-                        boxShadow: "0 6px 12px rgba(0,0,0,0.3)"
-                    }}
-                ></iframe>
-            </div>
+            {showMessage && (
+                <div className="fade-in-video">
+                    <iframe
+                        width="640"
+                        height="360"
+                        src="https://www.youtube.com/embed/rTsbSY04s1Y?autoplay=1&loop=1&playlist=rTsbSY04s1Y"
+                        title="Surpresa Musical"
+                        allow="autoplay; encrypted-media"
+                        allowFullScreen
+                        style={{
+                            borderRadius: "15px",
+                            boxShadow: "0 6px 12px rgba(0,0,0,0.3)"
+                        }}
+                    ></iframe>
+                </div>
+            )}
 
             {/* Estilos */}
             <style>
@@ -101,17 +103,6 @@ function Surpresa() {
                         margin-top: 30px;
                     }
 
-                    .typing-effect {
-                        font-size: 1.8em;
-                        font-weight: bold;
-                        overflow: hidden;
-                        white-space: nowrap;
-                        border-right: 3px solid #ff4d6d;
-                        width: fit-content;
-                        margin-top: 40px;
-                        animation: typing 3s steps(40) forwards, fadeIn 6s;
-                    }
-
                     @keyframes fadeIn {
                         from { opacity: 0; transform: translateY(-10px); }
                         to { opacity: 1; transform: translateY(0); }
@@ -126,11 +117,6 @@ function Surpresa() {
                     @keyframes glow {
                         0% { text-shadow: 0 0 15px rgba(255, 0, 255, 0.8), 0 0 20px rgba(255, 0, 255, 0.8); }
                         100% { text-shadow: 0 0 25px rgba(255, 0, 255, 1), 0 0 35px rgba(255, 0, 255, 1); }
-                    }
-
-                    @keyframes typing {
-                        from { width: 0; }
-                        to { width: 100%; }
                     }
 
                     /* Criando os corações flutuantes */
