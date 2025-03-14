@@ -17,15 +17,15 @@ function Surpresa() {
             fontFamily: 'Arial, sans-serif',
             color: '#ff4d6d'
         }}>
-            <h1>Para a minha princesa 💖</h1>
-            <p>Você é a melhor parte dos meus dias e a melodia do meu coração. 🎶</p>
-            <p>Espero que esse momento te faça sorrir do jeito que eu amo ver! 😍</p>
+            <h1>Oi meu amor</h1>
+            <p>Você é a parte do meu dia, que mais anseio para eternizar.  </p>
+            <p>Saudades do seu sorriso.</p>
 
             {/* Vídeo tocando ao fundo */}
             <iframe
                 width="0"
                 height="0"
-                src="https://www.youtube.com/embed/IbRtGMm96F8?autoplay=1&loop=1&playlist=IbRtGMm96F8"
+                src="https://www.youtube.com/watch?v=rTsbSY04s1Y"
                 title="Surpresa Musical"
                 ref={videoRef}
             ></iframe>
