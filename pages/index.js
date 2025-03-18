@@ -18,20 +18,20 @@ function Surpresa() {
     <div className="container">
       <h1 className="glow-text">Oi, meu amor.</h1>
       <p className="fade-in-text text-box">
-        Tem algo que preciso te falar e só de pensar nisso, já me dá aquele frio na barriga.
-        Mas antes de falar, queria destacar que você não é só alguém especial,
+        Tem algo que preciso te falar e só de pensar nisso, já me dá aquele frio
+        na barriga. Mas antes de falar, queria destacar que você não é só alguém
+        especial,
         <strong> mas sim a melhor parte dos meus dias.</strong>
-        Teu sorriso ilumina tudo em minha volta e seu abraço é o único lugar onde tudo faz sentido.
+        Teu sorriso ilumina tudo em minha volta e seu abraço é o único lugar
+        onde tudo faz sentido.
       </p>
 
       <p className="fade-in-text text-box">
-        Mas o que eu quero te falar está subentendido nesta música.
-        Estava ouvindo e lembrei de você. Será por quê? rsrs
+        Mas o que eu quero te falar está subentendido nesta música. Estava
+        ouvindo e lembrei de você. Será por quê? rsrs
       </p>
 
-      <p className="fade-in-text text-box">
-        Te amo minha chata.
-      </p>
+      <p className="fade-in-text text-box">Te amo minha chata.</p>
 
       {showMessage && (
         <div className="fade-in-video">
